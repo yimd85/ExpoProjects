@@ -51,10 +51,10 @@ export default class App extends React.Component {
     return (
       <Card
         key={item.id}
-        image={{ uri: item.uri }}
         title={item.text}
+        image={{ uri: item.uri }}
       >
-        <Text>I can customize the Card further.</Text>
+        <Text style={{ marginBottom: 10 }}>I can customize the Card further.</Text>
         <Button
           icon={{ name: 'code' }}
           backgroundColor='#03A9F4'
