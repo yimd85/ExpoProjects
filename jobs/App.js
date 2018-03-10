@@ -21,7 +21,7 @@ export default class App extends React.Component {
           review: {
             screen: StackNavigator({
               review: { screen: ReviewScreen },
-              settings: { screen: SettingsScreen },
+              settings: { screen: SettingsScreen }
             })
           }
         })
